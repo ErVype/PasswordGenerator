@@ -2,7 +2,7 @@ import random
 
 
 def create_password(password_lenght):
-    chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
+    chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789,.-"
     password = ""
     for i in range(password_lenght):
         password = password + random.choice(chars)
